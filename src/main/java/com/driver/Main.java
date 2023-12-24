@@ -17,6 +17,7 @@ class B extends A {
 }
 
 public class Main {
+    
     public static void main(String[] args) {
         // Task 3: Create an object of class B
         B objB = new B();
