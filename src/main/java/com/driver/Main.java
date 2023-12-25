@@ -1,6 +1,8 @@
 package com.driver;
 // Task 1: Create a class A with a method named meth
-public static class A {
+public class Main {
+
+    public static class A {
     public String meth() {
         return "Invoking method from class A";
     }
@@ -14,8 +16,6 @@ public static class B extends A {
         return "Method is overridden in Extended class B";
     }
 }
-
-public class Main {
     public static void main(String[] args) {
         // Task 3: Create an object of class B
         B objB = new B();
